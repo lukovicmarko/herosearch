@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Marvel Hero Search</title>
+    <link href="/images/iron-man.png" rel="icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script type="text/javascript"
+        src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.typekit.net/lop6dey.css">
+
+    <link href="/styles/styles.css" rel="stylesheet">
+</head>
+
+<body class="comicBGPanel greyBG">
+    <div class="container-fluid SkyLine my-0">
+        <div class=" container align-content-center ">
+            <h4 class="big text-center">Hero Search</h4>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Hero Search</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <form class="form-inline my-2 my-md-0 ml-auto" id="heroesForm">
+                <input id="searchInput" class="form-control typeahead tt-query" type="text" autocomplete="off"
+                    spellcheck="false" name="searchString" placeholder="Search" aria-label="Search">
+                <button href="#!" class="btn btn-dark btn-outline-light btn-md my-0 ml-sm-2" type="submit">
+                    Search
+                </button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="md-9 mx-auto">
+            <div id="info">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container heroDiv">
+        <div class="md-9 mx-auto">
+            <header class="jumbotron my-4 HeroSpotlight">
+                <h1 class="display-3 ComicTitle">Captain Marvel</h1>
+                <div class="desktop">
+                    <div class="HeroSpotlightDesc">
+                        <p class="lead">When head of NASA security Carol Danvers was exposed to a powerful alien
+                            device, she
+                            transformed into the mighty cosmic powered hero, Captain Marvel!
+                        </p>
+                    </div>
+                    <a href="https://www.marvel.com/characters/captain-marvel-carol-danvers" target="_blank"
+                        class="comicbutton comicbutton-accent">Learn More!</a>
+                </div>
+            </header>
+            <!-- Page Features -->
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="/images/CaptainMarvelcomic1.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Captain Marvel Vol. 1: Rise of Alpha Flight</h4>
+                            <p class="card-text">Oh Captain, my Captain! Carol Danvers soars higher than ever with her
+                                greatest mission yet — leading Earth's first line of defense, the all-new Alpha Flight
+                                space program! </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://comicstore.marvel.com/Captain-Marvel-Vol-1-Rise-of-Alpha-Flight/digital-comic/42215?r=1"
+                                target="_blank" class="comicbutton comicbutton-accent">Find Out More!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="/images/CaptainMarvelcomic2.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Captain Marvel Vol. 2: Civil War II</h4>
+                            <p class="card-text">Old friends face off as bitter enemies in an event that will change
+                                Captain Marvel's life forever! As a new Civil War erupts, Carol Danvers finds herself at
+                                the very forefront of the conflict.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://comicstore.marvel.com/Captain-Marvel-Vol-2-Civil-War-II/digital-comic/44050?r=1"
+                                target="_blank" class="comicbutton comicbutton-accent">Find Out More!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="/images/CaptainMarvelcomic3.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Captain Marvel: Earth's Mightiest Hero Vol. 5</h4>
+                            <p class="card-text">t’s a bold new frontier for Carol Danvers, soaring to ever greater
+                                heights as the leader of the all-new Alpha Flight space program! Yup, Alpha Flight —
+                                including classic favorites Puck, Sasquatch and Aurora! </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://comicstore.marvel.com/Captain-Marvel-Earths-Mightiest-Hero-Vol-5/digital-comic/50626"
+                                target="_blank" class="comicbutton comicbutton-accent">Find Out More!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="/images/CaptainMarvelcomic4.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Captain Marvel (2016) #3</h4>
+                            <p class="card-text">Captain Marvel's powers are on the fritz and the timing couldn't be
+                                worse. All evidence says that Alpha Flight has a traitor in their midst. How will Carol
+                                and her crew figure out the origins of the mystery ship when they can't even trust each
+                                other?</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://comicstore.marvel.com/Captain-Marvel-2016-3/digital-comic/41278?r=1"
+                                target="_blank" class="comicbutton comicbutton-accent">Find Out More!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Hero Search 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="/scripts/typehead.js"></script>
+    <script src="/scripts/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+
+
+.SkyLine {
+    background-image: url("/images/SkyLinefinal.png"),linear-gradient(to bottom, #163C52 0%,#4F4F47 30%,#C5752D 60%,#B7490F 80%, #2F1107 100%);
+    background-size: contain,auto;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    min-height: 200px;
+}
+
+.big {
+    font-family: ccbiffbamboom, sans-serif;
+    color: black;
+    margin: 30px 0 -1em 0;
+    text-shadow: -1px -1px yellow, 1px 1px orange, 2px 2px orange;
+    -webkit-transform: rotate(-5deg) skew(-20deg, 0);
+    -moz-transform: rotate(-5deg) skew(-20deg, 0);
+    -ms-transform: rotate(-5deg) skew(-20deg, 0);
+    -o-transform: rotate(-5deg) skew(-20deg, 0);
+    transform: rotate(-5deg) skew(-20deg, 0);
+    padding-bottom: 0px;
+    float: left;
+    width: 100%;
+}
+
+
+h4.big {
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 200%;
+}
+
+.HeroSpotlightDesc {
+    background: #fff;
+    background: rgba(255,255,255,.3);
+    color: black;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.HeroSpotlight {
+    background-image: url("/images/CaptainMarvel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #f2c94d;
+}
+
+.ComicTitle {
+    font-family: ccbiffbamboom, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comicbutton {
+    display: inline-block;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1em;
+}
+
+.comicbutton-accent {
+    color: black;
+}
+
+.comicbutton-accent:hover,
+.comicbutton-accent:focus {
+    background: black;
+    color: #FDD135;
+}
+.comicBGPanel {
+    padding: 0px;
+    background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+    margin-bottom: -4px;
+}
+
+.greyBG {
+    background-image: radial-gradient(ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 35%, #ffffff 30%, #ffffff 40%, rgba(0, 0, 0, 0) 90%), radial-gradient(ellipse farthest-corner at 0px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 8px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0px 8px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 40%), radial-gradient(ellipse farthest-corner at 8px 0px, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, #ffffff 15%, #ffffff 20%, rgba(0, 0, 0, 0) 50%), linear-gradient(40deg, #484848 0, #959595 30%, #acacac 50%, #959595 70%, #484848 100%);
+}
+
+.ComicPanel {
+    background-color: #fff;
+    border: solid 3px #000;
+    box-shadow: 0 6px 6px -6px #000;
+}
+
+.ComicTitle {
+    font-family: ccbiffbamboom, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lead{
+    padding:15px 0 15px 15px;  
+}
+
+
+/* typehead */
+
+.typeahead, .tt-query, .tt-hint {
+	border: 2px solid #CCCCCC;
+	border-radius: 8px;
+	font-size: 22px; /* Set input font size */
+	height: 38px;
+	line-height: 38px;
+	outline: medium none;
+	padding: 8px 12px;
+	width: 355px;
+}
+
+
+/* .tt-hint {
+	color: #999999;
+} */
+.tt-menu {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 422px;
+}
+.tt-suggestion {
+	font-size: 22px;  /* Set suggestion dropdown font size */
+	padding: 3px 20px;
+}
+.tt-suggestion:hover {
+	cursor: pointer;
+	background-color: #0097CF;
+	color: #FFFFFF;
+}
+.tt-suggestion p {
+	margin: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    h4.big {
+        font-size: 50px;
+        letter-spacing: 5px;
+        line-height: 200%;
+    }
+    #searchInput{
+        margin-right: 22px
+    }
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {   
+    background-color: #fff;
+    color: black;
+    border: 3px solid black;
+    padding: 20px;
+    transform: rotateY(180deg);
+  }
+
+.avatar-image{
+    width: 500px; 
+    height: 500px;
+    border: 3px solid black
+}
